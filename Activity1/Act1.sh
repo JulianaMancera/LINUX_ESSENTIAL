@@ -7,4 +7,4 @@ read age
 echo "Enter program:"
 read program
 
-echo "Hello $name! This is yout $age and your program is $program."
+echo "Hello $name! - $age years old and your program is $program."
