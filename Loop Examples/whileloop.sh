@@ -5,4 +5,3 @@ while [ $count -le 5 ]; do
 num=$((count+1))
 done
 
-#nagloloop :((
