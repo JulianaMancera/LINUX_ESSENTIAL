@@ -1,7 +1,10 @@
 #!/bin/bash
 
-# Get GitHub username from environment variable or set default
-GITHUB_USER=${GITHUB_ACTOR:-"JulianaMancera"}
+# Get the current timestamp
+TIMESTAMP=$(date)
 
-# Log date, time, and GitHub username
-echo "$(date): Logged by $GITHUB_USER" >> log.txt
+# Get GitHub username
+USERNAME=${GITHUB_ACTOR:-"unknown-user"}
+
+# call to log.txt
+echo "$TIMESTAMP - Logged by $USERNAME" >> log.txt
